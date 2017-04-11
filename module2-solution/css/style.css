@@ -9,7 +9,7 @@
   border: 1px solid black;
   height: 25px;
   width: 120px;
-  position: relative;
+  position: absolute;
   text-align: center;
   float: right;
   margin-top: 0px;
