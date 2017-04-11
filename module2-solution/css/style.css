@@ -1,41 +1,20 @@
-h1 {
-  margin-bottom: 15px;
-}
-
-p {
+.divstyle{
+  background-color: #00FFFF;
+  position: relative;
   border: 1px solid black;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
+ 
 }
-#p1-1 {
-  background-color: #A52A2A;
-  width: 300px;
-  height: 300px;
+.ptitle{
+  border: 1px solid black;
+  height: 25px;
+  width: 120px;
+  position: relative;
+  text-align: center;
+  float: right;
+  margin-top: 0px;
+  font-weight: bold;
 }
-#p2 {
-  background-color: #DEB887;
-  width: 50px;
-  height: 50px;
-}
-
-/********** Large devices only **********/
-@media(min-width: 1200px){
-	#p1{
-		width:80%;
-	}
-	#p2{
-		width:150px;
-		height: 150px;
-	}
-}
-
-
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-  #p1 {
-		width: 50%;
-	}
-	#p2 {
-	  width: 150px;
-	  height: 100px;
-	}
+.pcontent{
+  padding-top:25px;
 }
